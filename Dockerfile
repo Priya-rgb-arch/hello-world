@@ -1,4 +1,4 @@
-FROM openjdk:8
-EXPOSE 8080
-COPY target/hello-world.jar hello-world.jar
-ENTRYPOINT ["java","-jar","/hello-world.jar"]
+FROM tomcat:latest
+RUN cp -R  /usr/local/tomcat/webapps.dist/*  /usr/local/tomcat/webapps
+# COPY ./target/*.war /usr/local/tomcat/webapps
+COPY **/*.war /usr/local/tomcat/webapps
