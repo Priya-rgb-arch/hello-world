@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
   	<groupId>com.javatechie</groupId>
-	<artifactId>github-cicd-actions</artifactId>
+	<artifactId>hello-world</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>github-cicd-actions</name>
