@@ -9,11 +9,7 @@
 name: Java CI build and package using maven
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+  workflow_call:
 jobs:
   build:
 
